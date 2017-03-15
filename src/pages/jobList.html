@@ -6,27 +6,96 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
 <div class="row expanded internal-top-header align-middle align-center" data-interchange="[{{root}}/assets/img/chicago-Cityscape-640.jpg, small], [{{root}}/assets/img/chicago-Cityscape-1280.jpg, medium]"></div>
 <div class="row">
   <div class="columns small-12 large-4">
-    <p class="show-for-medium-down"><a data-toggle="panel">Show Refined Options</a></p>
-    <form class="" action="#" method="post" id="panel" data-toggler data-animate="slide-in-left slide-out-left">
+    <p class="show-for-medium-down"><a data-toggle="panel"><i class="fa fa-bars" aria-hidden="true"></i> Refine Results</a></p>
+    <form action="#" method="post" id="panel" data-toggler data-animate="slide-in-left slide-out-left">
       <fieldset class="fieldset">
         <legend>Refine</legend>
         <label class="label">Job Type</label></br>
-<div class="small-12 columns">
-  <input id="checkbox1" type="checkbox"><label for="checkbox1">Full time</label>
-</div>
-<div class="small-12 columns">
-  <input id="checkbox1" type="checkbox"><label for="checkbox1">Part time</label>
-</div>
-<div class="small-12 columns">
-  <input id="checkbox1" type="checkbox"><label for="checkbox1">Contract</label>
-</div>
-<label id="ageLabel" class="label">Sallery from</label>  - £<span id="sallery">10000</span>
-<div class="slider" aria-labelledby="ageLabel" aria-describedby="ageHelpText" data-slider data-initial-start='10000' data-end='90000'>
-<span class="slider-handle" data-slider-handle="" role="slider" tabindex="0" aria-valuemax="90000" aria-valuemin="0" aria-orientation="horizontal"></span>
-<span class="slider-fill" data-slider-fill></span></div>
+        <div class="small-12 columns">
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Full time</label>
+        </div>
+        <div class="small-12 columns">
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Part time</label>
+        </div>
+        <div class="small-12 columns">
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Contract</label>
+        </div>
+        <div id="salaryPicker" class="columns small-12">
+					<select name="salary_min" id="fromSalary" class="columns small-12 medium-5 large-12 ">
+						<option value="">Any min salary</option>
+						<option value="8000">£8,000 per annum</option>
+						<option value="10000">£10,000 per annum</option>
+						<option value="12000">£12,000 per annum</option>
+						<option value="15000">£15,000 per annum</option>
+						<option value="17000">£17,000 per annum</option>
+						<option value="20000">£20,000 per annum</option>
+						<option value="25000">£25,000 per annum</option>
+						<option value="30000">£30,000 per annum</option>
+						<option value="35000">£35,000 per annum</option>
+						<option value="40000">£40,000 per annum</option>
+						<option value="45000">£45,000 per annum</option>
+						<option value="50000">£50,000 per annum</option>
+						<option value="60000">£60,000 per annum</option>
+						<option value="70000">£70,000 per annum</option>
+						<option value="80000">£80,000 per annum</option>
+						<option value="90000">£90,000 per annum</option>
+						<option value="100000">£100,000 per annum</option>
+						<option value="110000">£110,000 per annum</option>
+						<option value="120000">£120,000 per annum</option>
+						<option value="130000">£130,000 per annum</option>
+						<option value="140000">£140,000 per annum</option>
+						<option value="150000">£150,000 per annum</option>
+						<option value="160000">£160,000 per annum</option>
+						<option value="170000">£170,000 per annum</option>
+						<option value="180000">£180,000 per annum</option>
+						<option value="190000">£190,000 per annum</option>
+					</select>
+					<label for="toSalary" class="columns small-12 medium-2 large-12 text-center">To</label>
+					<select name="salary_max" id="toSalary"  class="columns small-12 medium-5 large-12 ">
+						<option value="">Any max salary</option>
+						<option value="9999">£9,999 per annum</option>
+						<option value="11999">£11,999 per annum</option>
+						<option value="13999">£13,999 per annum</option>
+						<option value="14999">£14,999 per annum</option>
+						<option value="16999">£16,999 per annum</option>
+						<option value="18999">£18,999 per annum</option>
+						<option value="19999">£19,999 per annum</option>
+						<option value="21999">£21,999 per annum</option>
+						<option value="24999">£24,999 per annum</option>
+						<option value="27999">£27,999 per annum</option>
+						<option value="29999">£29,999 per annum</option>
+						<option value="32999">£32,999 per annum</option>
+						<option value="34999">£34,999 per annum</option>
+						<option value="39999">£39,999 per annum</option>
+						<option value="44999">£44,999 per annum</option>
+						<option value="49999">£49,999 per annum</option>
+						<option value="54999">£54,999 per annum</option>
+						<option value="59999">£59,999 per annum</option>
+						<option value="64999">£64,999 per annum</option>
+						<option value="69999">£69,999 per annum</option>
+						<option value="74999">£74,999 per annum</option>
+						<option value="79999">£79,999 per annum</option>
+						<option value="84999">£84,999 per annum</option>
+						<option value="89999">£89,999 per annum</option>
+						<option value="99999">£99,999 per annum</option>
+						<option value="109999">£109,999 per annum</option>
+						<option value="119999">£119,999 per annum</option>
+						<option value="129999">£129,999 per annum</option>
+						<option value="139999">£139,999 per annum</option>
+						<option value="149999">£149,999 per annum</option>
+						<option value="159999">£159,999 per annum</option>
+						<option value="169999">£169,999 per annum</option>
+						<option value="179999">£179,999 per annum</option>
+						<option value="189999">£189,999 per annum</option>
+						<option value="200000">£200,000 per annum</option>
+					</select>
+				</div>
       </fieldset>
     </form>
   </div>
+  <!-- End Refine results section -->
+
+
   <div class="columns small-12 large-8">
     {{#repeat 5}}
     <div class="small-12 columns jobitem callout vertpad">
@@ -51,7 +120,7 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
   <ul class="pagination text-center" role="navigation" aria-label="Pagination">
     <li class="pagination-previous disabled">Previous</li>
     <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-    <li><a href="#" aria-label="Page 2">2</a></li>``
+    <li><a href="#" aria-label="Page 2">2</a></li>
     <li><a href="#" aria-label="Page 3">3</a></li>
     <li><a href="#" aria-label="Page 4">4</a></li>
     <li class="ellipsis"></li>
