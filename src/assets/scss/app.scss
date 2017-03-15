@@ -150,8 +150,11 @@
   }
 }
 
-form{
+form#refineSearch{
   @include breakpoint(medium down){
     display: none;
+  }
+  @include breakpoint(large up){
+    display: block;
   }
 }
