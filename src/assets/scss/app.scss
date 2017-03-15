@@ -93,13 +93,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 55%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .internal-top-header{
   @extend .top-header;
   max-height:10em;
+  h1{
+    text-align: center;
+  }
 }
 
 
