@@ -133,12 +133,13 @@
       }
   }
 }
+
+.JobTitle{
+@extend .callout-title;
+}
 .jobitem{
   &:first-child{
       margin-top:1.8em;
-  }
-  .JobTitle{
-  @extend .callout-title;
   }
   p{
     margin:0.25em;
@@ -146,5 +147,11 @@
   span{
     font-weight:bolder;
     color: $purple;
+  }
+}
+
+form{
+  @include breakpoint(medium down){
+    display: none;
   }
 }
