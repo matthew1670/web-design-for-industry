@@ -44,6 +44,9 @@
 @import 'util/util';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+//My Custom Variables
+$purple:#AA7D9E;
+$dark-purple:#69006b ;
 
 // 1. Global
 // ---------
@@ -52,7 +55,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: $purple,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -63,8 +66,6 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
-$purple:#AA7D9E;
-$dark-purple:#69006b ;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Open Sans', sans-serif;
