@@ -1,0 +1,79 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Data Pulled in from page-->
+<title>{{ title }}</title>
+<meta name="description" content='{{ description }}'/>
+<meta name="keywords" content='{{ keywords }}'/>
+<!-- Other Meta Data related to search engines -->
+<meta name="language" content="English (UK)"/>
+<meta name="author" content="Finkk Limited"/>
+<meta name="robots" content="all,index,follow"/>
+<meta name="revisit-after" content="10 days"/>
+<meta name="document-class" content="Completed"/>
+<meta name="document-classification" content="Internet"/>
+<meta name="document-type" content="Web Page"/>
+<meta name="document-rating" content="General"/>
+<meta name="document-distribution" content="UK"/>
+<meta name="document-state" content="Static"/>
+<meta name="googlebot" content="NOODP" />
+<meta name="DC.title" content="Architectural and Engineering jobs and recruitment services within Europe, Middle East, Asias and the Far East from junior to senior level."/>
+<meta name="geo.placename" content="Southampton SO14 6QR, UK" />
+<meta name="geo.position" content="50.918971;-1.402774" />
+<meta name="geo.region" content="" />
+<meta name="ICBM" content="50.918971, -1.402774" />
+<meta name="distribution" content="UK" />
+<link rel="stylesheet" href="{{root}}/assets/css/app.css">
+</head>
+<body>
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+<button class="menu-icon" type="button" data-toggle="example-menu"></button>
+<div class="title-bar-title">Architectural Elite</div>
+</div>
+<div class="top-bar row" id="example-menu">
+  <div class="top-bar-left hide-for-small-only">
+    <img src="{{root}}/assets/img/AE-Logo-2.svg" class="topbar-logo" alt="">
+  </div>
+  <div class="top-bar-right">
+    <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Jobs</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Login / Register</a>
+    <ul class="menu vertical">
+    <li><form class="loginform" action="" method="post">
+      <input type="text" name="" placeholder="Username">
+      <input type="Password" name="" placeholder="Password">
+      <input type="submit" name="" value="Login" class="button small-right">
+    </form></li>
+    </ul>
+    </li>
+    </ul>
+  </div>
+</div>
+
+{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+{{> body}}
+
+<div class="row social-icons align-center text-center">
+    <div class="column small-6">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+  </div>
+<div class="row text-center columns">
+<p>&copy; 2017 Matthew Wood - Student at SSU</p>
+</div>
+</div>
+<script src="{{root}}/assets/js/app.js"></script>
+<script src="https://use.fontawesome.com/48666eec91.js"></script>
+</body>
+</html>
