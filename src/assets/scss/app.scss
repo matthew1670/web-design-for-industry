@@ -154,6 +154,8 @@
     }
   }
 }
+
+//Jobs Listing Page
 .JobTitle{
 @extend .callout-title;
 }
@@ -165,12 +167,23 @@
     margin:0.25em;
   }
 }
-
 .heading{
   font-weight:bolder;
   color: $purple;
 }
 
+form#refineSearch{
+  @include breakpoint(medium down){
+    display: none;
+  }
+  @include breakpoint(large up){
+    display: block;
+  }
+}
+
+
+
+// Single Job Page
 .job-overview{
   .heading{
     margin:0;
@@ -184,18 +197,5 @@
   }
   .fa{
     margin-left:.5em;
-  }
-}
-
-
-
-
-
-form#refineSearch{
-  @include breakpoint(medium down){
-    display: none;
-  }
-  @include breakpoint(large up){
-    display: block;
   }
 }
