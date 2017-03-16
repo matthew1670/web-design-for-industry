@@ -5,7 +5,7 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
 ---
 <div class="row expanded internal-top-header align-middle align-center" data-interchange="[{{root}}/assets/img/chicago-Cityscape-640.jpg, small], [{{root}}/assets/img/chicago-Cityscape-1280.jpg, medium]">
 </div>
-<div class="row columns small-12">
+<div class="row columns small-12 text-center">
     <h1>Here Are Your Results</h1>
 </div>
 <div class="row">
@@ -14,7 +14,9 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
     <form class="refineSearch" action="#" method="" id="panel" data-toggler data-animate="slide-in-left slide-out-left">
       <fieldset class="fieldset">
         <legend>Refine</legend>
-        <label class="label">Job Type</label></br>
+        <div class="small-12 columns">
+          <label class="label">Job Type</label></br>
+        </div>
         <div class="small-12 columns">
           <input id="checkbox1" type="checkbox"><label for="checkbox1">Full time</label>
         </div>
@@ -25,6 +27,7 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
           <input id="checkbox1" type="checkbox"><label for="checkbox1">Contract</label>
         </div>
         <div id="salaryPicker" class="columns small-12">
+        <label class="label">Job Sallary</label></br>
 					<select name="salary_min" id="fromSalary" class="columns small-12 medium-5 large-12 ">
 						<option value="">Any min salary</option>
 						<option value="8000">£8,000 per annum</option>
@@ -95,8 +98,10 @@ keywords: architecture recruitment, architect jobs, architectural recruitment, a
 					</select>
 				</div>
         <div class="columns small-12">
-  				<label for="posted" class="small-12 medium-6">Date Posted</label>
-  				<select name="posted" id="posted" class="small-12 medium-5 large-12">
+          <label class="label">Job Posted</label></br>
+        <div>
+        <div class="columns small-12 nopad">
+          <select name="posted" id="posted" class="small-12 medium-5 large-12">
   					<option value="Any">any time</option>
   					<option value="3days">in last 3 days</option>
   					<option value="2days">in last 2 days</option>
