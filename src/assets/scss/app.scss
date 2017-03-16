@@ -164,12 +164,12 @@
   p{
     margin:0.25em;
   }
-  span{
-    font-weight:bolder;
-    color: $purple;
-  }
 }
 
+span{
+  font-weight:bolder;
+  color: $purple;
+}
 form#refineSearch{
   @include breakpoint(medium down){
     display: none;
