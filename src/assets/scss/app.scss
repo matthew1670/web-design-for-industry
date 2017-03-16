@@ -197,3 +197,10 @@ form#refineSearch{
     margin-left:.5em;
   }
 }
+
+
+//Employers Page
+.accordion-item.is-active>.accordion-title {
+    background-color: $purple;
+    color: $white;
+}
