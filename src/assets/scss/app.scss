@@ -166,10 +166,28 @@
   }
 }
 
-span{
+.heading{
   font-weight:bolder;
   color: $purple;
 }
+
+.job-overview{
+  .heading{
+    margin:0;
+  }
+  @include breakpoint(medium up){
+    border-right:1px solid $light-gray;
+  }
+  img {
+      text-align: center;
+      width: 100%;
+  }
+}
+
+
+
+
+
 form#refineSearch{
   @include breakpoint(medium down){
     display: none;
