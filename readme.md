@@ -1,6 +1,8 @@
 # AE1 - Archutectual Elite Website Redesign.
+
 # Matthew Wood - Southampton Solent University
 
+Not All Pages Where needed to redesigned.
 
 ## Report Location
 
